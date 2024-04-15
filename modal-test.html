@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Clic</title>
+</head>
+<body>
+  <form method="POST" action="#" enctype="multipart/form-data" class="modal-add-work-form">
+    <h2>Ajout photo</h2>
+    <div class="modal-space"></div>
+    <div class="modal-img-view-container">
+      <i class="modal-img-view-container-icon fa-regular fa-image"></i>
+      <input type="file" accept="image/*" name="image" id="test" class="modal-img-view-container-input">
+      <button class="modal-img-view-container-button">+ Ajouter photo</button>
+      <p class="modal-img-view-container-information">jpg, png : 4mo max</p>
+    </div>
+    <div class="modal-space"></div>
+    <div class="modal-separator"></div>
+    <div class="modal-space"></div>
+    <button class="modal-button" type="submit">Valider</button>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('test').click();
+      });
+    </script>
+  </form>
+</body>
+</html>
